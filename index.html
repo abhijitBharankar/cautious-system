@@ -11,41 +11,32 @@
 </head>
 
 <body>
-    <div class="pingPong container text-center">
-        <img class="img img-fluid"
-            src="https://images.unsplash.com/photo-1593786481097-cf281dd12e9e?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=750&q=80"
-            alt="">
-        <div class="heading">
-            <h5>Ping Pong Score Keeper</h5>
-        </div>
-        <div>
-            <h1><span id="player1">0</span> to <span id="player2">0</span></h1>
-            <h6>Use the below buttons to keep score</h6>
-            <div class="options">
-                <h4>Playing to</h4>
-                <select name="select" id="select">
-                    <option value="5">5</option>
-                    <option value="6">6</option>
-                    <option value="7">7</option>
-                    <option value="8">8</option>
-                    <option value="9">9</option>
-                    <option value="10">10</option>
-                </select>
-            </div>
-            <!-- <div class="row">
-                <div id="firstPlayerBtn" class="col-4 btn-success">+1 Player One</div>
-                <div id="secondPlayerBtn" class="col-4 btn-primary">+1 Player Two</div>
-                <div id="resetBtn" class="col-4 btn-danger">Reset</div>
-            </div> -->
-
-            <div class="buttons">
-                <button id="firstPlayerBtn" class="btn btn-block btn-success">+1 Player One</button>
-                <button id="secondPlayerBtn" class="btn btn-block btn-primary">+1 Player Two</button>
-                <button id="resetBtn" class="btn btn-block btn-danger">Reset</button>
-                <br><br>
+    <div class="container d-flex flex-column align-items-center">
+        <div class="card text-center" style="width: 22rem;">
+            <img src="https://images.unsplash.com/photo-1593786481097-cf281dd12e9e?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=750&q=80"
+                class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Ping Pong Score Keeper</h5>
+                <h1 class="card-header"><span id="player1">0</span> to <span id="player2">0</span></h1>
+                <div class="options mt-1">
+                    <h4>Playing to</h4>
+                    <select name="select" id="select">
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                    </select>
+                </div>
+                <p class="card-footer">Use the below buttons to keep score</p>
+                <button id="firstPlayerBtn" href="#" class="btn btn-block btn-success">+1 Player One</button>
+                <button id="secondPlayerBtn" href="#" class="btn btn-block btn-primary">+1 Player Two</button>
+                <button id="resetBtn" href="#" class="btn btn-block btn-danger">Reset</button>
             </div>
         </div>
     </div>
+
     <script src="app.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
