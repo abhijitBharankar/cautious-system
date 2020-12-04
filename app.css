@@ -1,0 +1,22 @@
+.pingPong{
+    height: auto;
+    width: 50%;
+    /* background-color: tomato; */
+    border: 2px solid black;
+}
+.img{
+    width: fit-content;
+    height: 350px;
+}
+
+select{
+    border-radius: 20px;
+    padding: 0px 10px;
+    margin-left: 15px ;;
+}
+#select{
+    margin-bottom: 20px
+}
+.options{
+    display: inline-flex;
+}
